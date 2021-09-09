@@ -1,0 +1,21 @@
+{
+	"name": "typescript-smaple-template",
+	"version": "1.0.0",
+	"description": "A unicorn that says hello world",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "tsc",
+		"prepare": "npm run build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/zhouyiran7/typescript-smaple-template.git"
+	},
+	"keywords": [],
+	"author": "monisnap-jason",
+	"license": "ISC"
+}
